@@ -235,6 +235,8 @@ export default function CameraClickPage() {
             <Image
               src={capturedImage}
               alt="Captured food item"
+              width={600}
+              height={400}
               className="object-contain w-full h-full"
             />
           ) : (
