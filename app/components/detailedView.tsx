@@ -61,9 +61,9 @@ export const DetailedViewComponent = ({ name }: { name: string | null }) => {
         <Image
           src={data.image}
           alt={name ?? "food item image"}
-          height={400}
+          height={600}
           width={600}
-          className="w-full h-64 object-cover rounded-lg shadow-md mb-6 border border-gray-700"
+          className="w-full h-[500] object-cover rounded-lg shadow-md mb-6 border border-gray-700"
         />
         <p className="text-gray-300 text-lg leading-relaxed">{data.summary}</p>
       </div>

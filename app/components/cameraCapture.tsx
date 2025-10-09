@@ -211,7 +211,7 @@ export default function CameraClickPage() {
   const router = useRouter();
   const handleDetailedView = (prediction: Record<string, string>[]) => {
     const name = prediction[0]?.label;
-    router.push(`/details?name=${encodeURIComponent(name)}`);
+    router.push(`/details/${encodeURIComponent(name)}`);
     // router.push(`/details?name=${encodeURIComponent(prediction.name)}`);
   };
 
