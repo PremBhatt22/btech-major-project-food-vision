@@ -1,13 +1,10 @@
-'use client'
-import React from "react";
 import { DetailedViewComponent } from "../../components/detailedView";
 type PageProps = {
-  params: {
-    slug: string; // 'slug' matches the name of our dynamic folder [slug]
-  };
-}
-const DetailedView = ({ params }: PageProps) => {
-  const slug = params.slug;
+  params: Promise<{ slug: string }>
+
+};
+const DetailedView = async ({ params }: PageProps) => {
+  const {slug} = await params;
 
   return (
     <>
