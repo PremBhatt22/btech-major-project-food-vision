@@ -2,6 +2,7 @@
 
 import React, { useState, useRef, useCallback } from "react";
 import { useRouter } from "next/navigation";
+import Image from "next/image";
 
 // --- Helper Icon Components (Unchanged) ---
 const CameraIcon = ({ className }: { className?: string }) => (
@@ -208,7 +209,7 @@ export default function CameraClickPage() {
   }, [stream]);
 
   const router = useRouter();
-  const handleDetailedView = (prediction: any) => {
+  const handleDetailedView = (prediction: Record<string, string>[]) => {
     const name = prediction[0]?.label;
     router.push(`/details?name=${encodeURIComponent(name)}`);
     // router.push(`/details?name=${encodeURIComponent(prediction.name)}`);
@@ -231,7 +232,7 @@ export default function CameraClickPage() {
             </div>
           )}
           {capturedImage ? (
-            <img
+            <Image
               src={capturedImage}
               alt="Captured food item"
               className="object-contain w-full h-full"

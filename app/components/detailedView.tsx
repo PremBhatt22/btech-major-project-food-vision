@@ -1,6 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import Image from "next/image";
 
 type NutritionData = {
   summary: string;
@@ -57,7 +58,7 @@ export const DetailedViewComponent = ({ name }: { name: string | null }) => {
     <div className="min-h-screen bg-gray-900 p-6 flex justify-center">
       <div className="max-w-3xl w-full p-6 bg-gray-800 shadow-xl rounded-xl mt-8">
         <h1 className="text-3xl font-bold text-center mb-6 text-green-400">{name}</h1>
-        <img
+        <Image
           src={data.image}
           alt={name ?? "food item image"}
           className="w-full h-64 object-cover rounded-lg shadow-md mb-6 border border-gray-700"
