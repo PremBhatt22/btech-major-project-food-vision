@@ -3,6 +3,7 @@
 import React, { useState, useRef, useCallback } from "react";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
+import { Results } from "./results";
 
 // --- Helper Icon Components (Unchanged) ---
 const CameraIcon = ({ className }: { className?: string }) => (
@@ -188,7 +189,7 @@ export default function CameraClickPage() {
         img: imageBlob,
       });
 
-      console.log("Gradio API Result:", result.data);
+      // console.log("Gradio API Result:", result.data);
       // Assuming the model returns data, set it to the state
       setPrediction(result.data);
     } catch (error) {
@@ -307,15 +308,17 @@ export default function CameraClickPage() {
             {prediction && (
               <div className="bg-gray-900/50 p-4 rounded-lg">
                 {/* This part needs to be customized based on your actual API response structure */}
-                <pre className="text-sm text-green-300 whitespace-pre-wrap break-all">
+                
+                {/* <pre className="text-sm text-green-300 whitespace-pre-wrap break-all">
                   <code>{JSON.stringify(prediction, null, 2)}</code>
-                </pre>
+                </pre> */}
+                <Results data={prediction[0]} />
               </div>
             )}
             {prediction && (
               <button
-                onClick={() => handleDetailedView(prediction)}
-                className="w-full flex-1 bg-green-600 hover:bg-green-500 text-white font-bold py-3 px-4 rounded-lg flex items-center justify-center gap-2 transition-all duration-300 transform hover:scale-105 shadow-lg shadow-green-600/30 disabled:opacity-50 disabled:cursor-not-allowed mt-4"
+              onClick={() => handleDetailedView(prediction)}
+              className="w-full flex-1 bg-green-600 hover:bg-green-500 text-white font-bold py-3 px-4 rounded-lg flex items-center justify-center gap-2 transition-all duration-300 transform hover:scale-105 shadow-lg shadow-green-600/30 disabled:opacity-50 disabled:cursor-not-allowed mt-4"
               >
                 See Detailed Results here
               </button>
