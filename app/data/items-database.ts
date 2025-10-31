@@ -1127,7 +1127,8 @@ export const food101Data: FoodItem[] = [
   {
     id: 102,
     title: "cup_cakes",
-    imageUrl: null,
+    imageUrl:
+      "https://images.pexels.com/photos/128846/pexels-photo-128846.jpeg",
     description:
       "Small individual cakes baked in a thin paper or aluminum cup, often topped with frosting.",
     nutrition: { protein_g: 4.5, sugar_g: 30.0, carbs_g: 50.0, fats_g: 18.0 },
@@ -1137,7 +1138,8 @@ export const food101Data: FoodItem[] = [
   {
     id: 103,
     title: "deviled_eggs",
-    imageUrl: null,
+    imageUrl:
+      "https://images.pexels.com/photos/128846/pexels-photo-128846.jpeg",
     description:
       "Hard-boiled eggs, shelled, cut in half, and filled with the egg yolk mixed with mayonnaise and mustard.",
     nutrition: { protein_g: 13.0, sugar_g: 1.0, carbs_g: 1.2, fats_g: 15.0 },
@@ -1147,7 +1149,8 @@ export const food101Data: FoodItem[] = [
   {
     id: 104,
     title: "donuts",
-    imageUrl: null,
+    imageUrl:
+      "https://images.pexels.com/photos/128846/pexels-photo-128846.jpeg",
     description:
       "A type of fried dough. Sweet, often glazed, frosted, or filled.",
     nutrition: { protein_g: 5.0, sugar_g: 28.0, carbs_g: 45.0, fats_g: 25.0 },
@@ -1157,7 +1160,8 @@ export const food101Data: FoodItem[] = [
   {
     id: 105,
     title: "dumplings",
-    imageUrl: null,
+    imageUrl:
+      "https://images.pexels.com/photos/128846/pexels-photo-128846.jpeg",
     description:
       "A broad class of dishes that consist of pieces of dough wrapped around a filling (e.g., meat, vegetables).",
     nutrition: { protein_g: 10.0, sugar_g: 2.0, carbs_g: 25.0, fats_g: 8.0 },
@@ -1167,7 +1171,8 @@ export const food101Data: FoodItem[] = [
   {
     id: 106,
     title: "edamame",
-    imageUrl: null,
+    imageUrl:
+      "https://images.pexels.com/photos/128846/pexels-photo-128846.jpeg",
     description:
       "Immature soybeans in the pod, found in cuisines with origins in East Asia. Often boiled or steamed.",
     nutrition: { protein_g: 12.0, sugar_g: 2.2, carbs_g: 10.0, fats_g: 5.0 },
@@ -1177,7 +1182,8 @@ export const food101Data: FoodItem[] = [
   {
     id: 107,
     title: "eggs_benedict",
-    imageUrl: null,
+    imageUrl:
+      "https://images.pexels.com/photos/128846/pexels-photo-128846.jpeg",
     description:
       "An American breakfast dish: two halves of an English muffin, topped with Canadian bacon, a poached egg, and hollandaise sauce.",
     nutrition: { protein_g: 12.0, sugar_g: 1.5, carbs_g: 15.0, fats_g: 18.0 },
@@ -1187,7 +1193,8 @@ export const food101Data: FoodItem[] = [
   {
     id: 108,
     title: "escargots",
-    imageUrl: null,
+    imageUrl:
+      "https://images.pexels.com/photos/128846/pexels-photo-128846.jpeg",
     description:
       "A dish of cooked land snails, usually served as an appetizer in French cuisine, often with garlic butter.",
     nutrition: { protein_g: 15.0, sugar_g: 1.0, carbs_g: 2.0, fats_g: 10.0 },
@@ -1197,7 +1204,8 @@ export const food101Data: FoodItem[] = [
   {
     id: 109,
     title: "falafel",
-    imageUrl: null,
+    imageUrl:
+      "https://images.pexels.com/photos/128846/pexels-photo-128846.jpeg",
     description:
       "A deep-fried ball or patty made from ground chickpeas, fava beans, or both.",
     nutrition: { protein_g: 13.0, sugar_g: 3.0, carbs_g: 32.0, fats_g: 18.0 },
@@ -1207,7 +1215,8 @@ export const food101Data: FoodItem[] = [
   {
     id: 110,
     title: "filet_mignon",
-    imageUrl: null,
+    imageUrl:
+      "https://images.pexels.com/photos/128846/pexels-photo-128846.jpeg",
     description:
       "A steak cut of beef taken from the smaller end of the tenderloin, known for its tenderness.",
     nutrition: { protein_g: 28.0, sugar_g: 0.0, carbs_g: 0.0, fats_g: 20.0 },
@@ -1217,7 +1226,8 @@ export const food101Data: FoodItem[] = [
   {
     id: 111,
     title: "fish_and_chips",
-    imageUrl: null,
+    imageUrl:
+      "https://images.pexels.com/photos/128846/pexels-photo-128846.jpeg",
     description:
       "A hot dish consisting of fried battered fish and hot chips (french fries).",
     nutrition: { protein_g: 10.0, sugar_g: 1.0, carbs_g: 25.0, fats_g: 15.0 },
@@ -1227,7 +1237,8 @@ export const food101Data: FoodItem[] = [
   {
     id: 112,
     title: "french_fries",
-    imageUrl: null,
+    imageUrl:
+      "https://images.pexels.com/photos/128846/pexels-photo-128846.jpeg",
     description:
       "Batonnet or allumette-cut deep-fried potatoes, often served as a side dish.",
     nutrition: { protein_g: 3.4, sugar_g: 0.3, carbs_g: 41.0, fats_g: 15.0 },
@@ -1237,7 +1248,8 @@ export const food101Data: FoodItem[] = [
   {
     id: 113,
     title: "french_onion_soup",
-    imageUrl: null,
+    imageUrl:
+      "https://images.pexels.com/photos/128846/pexels-photo-128846.jpeg",
     description:
       "Soup based on onions and beef stock, served with croutons and melted cheese on top.",
     nutrition: { protein_g: 5.0, sugar_g: 3.0, carbs_g: 8.0, fats_g: 4.0 },
@@ -1247,7 +1259,8 @@ export const food101Data: FoodItem[] = [
   {
     id: 114,
     title: "french_toast",
-    imageUrl: null,
+    imageUrl:
+      "https://images.pexels.com/photos/128846/pexels-photo-128846.jpeg",
     description:
       "Sliced bread soaked in beaten eggs and typically milk, then pan-fried.",
     nutrition: { protein_g: 7.0, sugar_g: 7.0, carbs_g: 25.0, fats_g: 12.0 },
@@ -1257,7 +1270,8 @@ export const food101Data: FoodItem[] = [
   {
     id: 115,
     title: "fried_calamari",
-    imageUrl: null,
+    imageUrl:
+      "https://images.pexels.com/photos/128846/pexels-photo-128846.jpeg",
     description:
       "Battered, deep-fried squid (calamari), often served with a lemon wedge or marinara sauce.",
     nutrition: { protein_g: 18.0, sugar_g: 1.0, carbs_g: 18.0, fats_g: 18.0 },
@@ -1267,7 +1281,8 @@ export const food101Data: FoodItem[] = [
   {
     id: 116,
     title: "fried_rice",
-    imageUrl: null,
+    imageUrl:
+      "https://images.pexels.com/photos/128846/pexels-photo-128846.jpeg",
     description:
       "A dish of cooked rice that has been stir-fried in a wok or a frying pan, mixed with eggs, vegetables, and often meat or seafood.",
     nutrition: { protein_g: 5.0, sugar_g: 1.0, carbs_g: 30.0, fats_g: 5.0 },
@@ -1277,7 +1292,8 @@ export const food101Data: FoodItem[] = [
   {
     id: 117,
     title: "frozen_yogurt",
-    imageUrl: null,
+    imageUrl:
+      "https://images.pexels.com/photos/128846/pexels-photo-128846.jpeg",
     description:
       "A frozen dessert made with yogurt and sometimes other dairy and non-dairy products.",
     nutrition: { protein_g: 4.0, sugar_g: 22.0, carbs_g: 25.0, fats_g: 4.0 },
@@ -1287,7 +1303,8 @@ export const food101Data: FoodItem[] = [
   {
     id: 118,
     title: "garlic_bread",
-    imageUrl: null,
+    imageUrl:
+      "https://images.pexels.com/photos/128846/pexels-photo-128846.jpeg",
     description:
       "Bread topped with garlic and olive oil or butter, then baked or broiled.",
     nutrition: { protein_g: 8.0, sugar_g: 2.0, carbs_g: 45.0, fats_g: 15.0 },
@@ -1297,7 +1314,8 @@ export const food101Data: FoodItem[] = [
   {
     id: 119,
     title: "gnocchi",
-    imageUrl: null,
+    imageUrl:
+      "https://images.pexels.com/photos/128846/pexels-photo-128846.jpeg",
     description:
       "Italian potato dumplings, often served with a sauce (e.g., pesto, tomato, or butter-sage).",
     nutrition: { protein_g: 4.0, sugar_g: 1.0, carbs_g: 35.0, fats_g: 0.5 },
@@ -1307,7 +1325,8 @@ export const food101Data: FoodItem[] = [
   {
     id: 120,
     title: "greek_salad",
-    imageUrl: null,
+    imageUrl:
+      "https://images.pexels.com/photos/128846/pexels-photo-128846.jpeg",
     description:
       "A salad made with tomatoes, cucumbers, onion, feta cheese, and olives, seasoned with salt, oregano, and olive oil.",
     nutrition: { protein_g: 5.0, sugar_g: 4.0, carbs_g: 7.0, fats_g: 12.0 },
@@ -1317,7 +1336,8 @@ export const food101Data: FoodItem[] = [
   {
     id: 121,
     title: "grilled_cheese_sandwich",
-    imageUrl: null,
+    imageUrl:
+      "https://images.pexels.com/photos/128846/pexels-photo-128846.jpeg",
     description:
       "A hot sandwich made by heating sliced cheese between slices of bread, often buttered, on a griddle or in a pan.",
     nutrition: { protein_g: 12.0, sugar_g: 4.0, carbs_g: 30.0, fats_g: 18.0 },
@@ -1327,7 +1347,8 @@ export const food101Data: FoodItem[] = [
   {
     id: 122,
     title: "grilled_salmon",
-    imageUrl: null,
+    imageUrl:
+      "https://images.pexels.com/photos/128846/pexels-photo-128846.jpeg",
     description:
       "A fillet of salmon cooked on a grill, known for its rich omega-3 fatty acids.",
     nutrition: { protein_g: 25.0, sugar_g: 0.0, carbs_g: 0.0, fats_g: 15.0 },
@@ -1337,7 +1358,8 @@ export const food101Data: FoodItem[] = [
   {
     id: 123,
     title: "guacamole",
-    imageUrl: null,
+    imageUrl:
+      "https://images.pexels.com/photos/128846/pexels-photo-128846.jpeg",
     description:
       "An avocado-based dip, spread, or salad, typically made with mashed avocado, onion, cilantro, salt, and lime juice.",
     nutrition: { protein_g: 2.0, sugar_g: 1.0, carbs_g: 9.0, fats_g: 15.0 },
@@ -1347,7 +1369,8 @@ export const food101Data: FoodItem[] = [
   {
     id: 124,
     title: "gyoza",
-    imageUrl: null,
+    imageUrl:
+      "https://images.pexels.com/photos/128846/pexels-photo-128846.jpeg",
     description:
       "Japanese pan-fried dumplings, typically filled with ground meat and vegetables.",
     nutrition: { protein_g: 9.0, sugar_g: 2.0, carbs_g: 28.0, fats_g: 10.0 },
@@ -1357,7 +1380,8 @@ export const food101Data: FoodItem[] = [
   {
     id: 125,
     title: "hamburger",
-    imageUrl: null,
+    imageUrl:
+      "https://images.pexels.com/photos/128846/pexels-photo-128846.jpeg",
     description:
       "A sandwich consisting of a cooked patty of ground meat (usually beef) placed inside a sliced bread roll or bun.",
     nutrition: { protein_g: 13.0, sugar_g: 5.0, carbs_g: 30.0, fats_g: 14.0 },
@@ -1367,7 +1391,8 @@ export const food101Data: FoodItem[] = [
   {
     id: 126,
     title: "hot_and_sour_soup",
-    imageUrl: null,
+    imageUrl:
+      "https://images.pexels.com/photos/128846/pexels-photo-128846.jpeg",
     description:
       "A Chinese soup with ingredients that make it both spicy and sour, often containing mushrooms, tofu, and egg.",
     nutrition: { protein_g: 3.0, sugar_g: 2.0, carbs_g: 7.0, fats_g: 2.0 },
@@ -1377,7 +1402,8 @@ export const food101Data: FoodItem[] = [
   {
     id: 127,
     title: "hot_dog",
-    imageUrl: null,
+    imageUrl:
+      "https://images.pexels.com/photos/128846/pexels-photo-128846.jpeg",
     description:
       "A cooked sausage served in a sliced bun, often with condiments.",
     nutrition: { protein_g: 10.0, sugar_g: 4.0, carbs_g: 25.0, fats_g: 15.0 },
@@ -1387,7 +1413,8 @@ export const food101Data: FoodItem[] = [
   {
     id: 128,
     title: "huevos_rancheros",
-    imageUrl: null,
+    imageUrl:
+      "https://images.pexels.com/photos/128846/pexels-photo-128846.jpeg",
     description:
       "A traditional Mexican breakfast dish consisting of eggs served on tortillas with a tomato-chili sauce, beans, and cheese.",
     nutrition: { protein_g: 10.0, sugar_g: 4.0, carbs_g: 20.0, fats_g: 15.0 },
@@ -1397,7 +1424,8 @@ export const food101Data: FoodItem[] = [
   {
     id: 129,
     title: "hummus",
-    imageUrl: null,
+    imageUrl:
+      "https://images.pexels.com/photos/128846/pexels-photo-128846.jpeg",
     description:
       "A Middle Eastern dip made from cooked, mashed chickpeas blended with tahini, lemon juice, and garlic.",
     nutrition: { protein_g: 8.0, sugar_g: 1.0, carbs_g: 14.0, fats_g: 10.0 },
@@ -1407,7 +1435,8 @@ export const food101Data: FoodItem[] = [
   {
     id: 130,
     title: "ice_cream",
-    imageUrl: null,
+    imageUrl:
+      "https://images.pexels.com/photos/128846/pexels-photo-128846.jpeg",
     description:
       "A sweetened frozen food typically eaten as a snack or dessert, made from milk or cream.",
     nutrition: { protein_g: 4.0, sugar_g: 21.0, carbs_g: 24.0, fats_g: 12.0 },
@@ -1417,7 +1446,8 @@ export const food101Data: FoodItem[] = [
   {
     id: 131,
     title: "lasagna",
-    imageUrl: null,
+    imageUrl:
+      "https://images.pexels.com/photos/128846/pexels-photo-128846.jpeg",
     description:
       "A dish made with several layers of wide, flat pasta, sauce (usually meat-based), and cheese.",
     nutrition: { protein_g: 12.0, sugar_g: 5.0, carbs_g: 25.0, fats_g: 10.0 },
@@ -1427,7 +1457,8 @@ export const food101Data: FoodItem[] = [
   {
     id: 132,
     title: "lobster_bisque",
-    imageUrl: null,
+    imageUrl:
+      "https://images.pexels.com/photos/128846/pexels-photo-128846.jpeg",
     description:
       "A rich, creamy, and smooth soup of French origin, based on a strained broth of crustaceans (lobster).",
     nutrition: { protein_g: 5.0, sugar_g: 3.0, carbs_g: 8.0, fats_g: 15.0 },
